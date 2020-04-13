@@ -1,15 +1,30 @@
-.nav-atas{
-    background-color: #27ae60 !important;
-    height: 30px;
-  
-}
+    .nav-atas{
+        display: none;
+    }
 
-.downloand-apk{
-    font-size: 12px;
-    color: white !important;
-}
+    .downloand-apk{
+        font-size: 12px;
+        color: white !important;
+    }
 
-.item-nav-atas a{
-    color: white !important;
-    font-size: 12px;
-}
+
+@media (min-width: 1200px) { 
+
+    .nav-atas{
+        background-color: #27ae60 !important;
+        height: 30px;
+        display: block;
+        line-height: 0px;
+      
+    }
+    
+    
+    
+
+    
+    .item-nav-atas a{
+        color: white !important;
+        font-size: 12px;
+    }
+
+ }
